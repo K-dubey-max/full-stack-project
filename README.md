@@ -1,15 +1,14 @@
 # Expense Tracker Application using SQL
 
-A simple expense tracker using MySQL. Learn SQL CRUD operations.
+A simple expense tracker using MySQL. With  SQL CRUD operations.
 
-## What is this?
 
-This is a simple project to learn:
-- How to create a table in SQL
-- How to add data (INSERT)
-- How to read data (SELECT)
-- How to change data (UPDATE)
-- How to delete data (DELETE)
+This is a simple project 
+-   create a table in SQL
+-   add data (INSERT)
+-   read data (SELECT)
+-   change data (UPDATE)
+-  delete data (DELETE)
 
 ## The Table
 
@@ -20,7 +19,6 @@ We have one table called `expenses` with 5 columns:
 - `category` - the type (Food, Travel, etc)
 - `date` - when you spent the money
 
-## How to Use
 
 1. Start MySQL:
 ```bash
@@ -37,7 +35,7 @@ sudo mysql expense_tracker_db < sql/expense_tracker.sql
 sudo mysql expense_tracker_db -e "SELECT * FROM expenses;"
 ```
 
-## What happens when you run it
+
 
 The script will:
 - Create a database named `expense_tracker_db`
@@ -57,4 +55,4 @@ The script will:
 
 ## Next Steps
 
-Later you can connect this to Node.js and then React.
+ can connect this to Node.js and then React.
